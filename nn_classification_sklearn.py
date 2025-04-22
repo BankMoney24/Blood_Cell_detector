@@ -15,6 +15,8 @@ def train_nn_sklearn(X_train, X_val, X_test, y_train, y_val, y_test):
         y_train: Training labels
         y_val: Validation labels
         y_test: Test labels
+
+        please all comments are to aid further understanding and improvements - X
     """
     # Set random seed for reproducibility
     np.random.seed(24)

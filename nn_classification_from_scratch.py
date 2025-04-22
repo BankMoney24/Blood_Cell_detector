@@ -16,6 +16,7 @@ def train_nn_own(X_train, X_val, X_test, y_train, y_val, y_test):
         y_test: Test labels
     """
     # Set random seed for reproducibility
+    # as in the project requirement
     np.random.seed(24)
     
     # Standardize the PCA-projected data
@@ -49,6 +50,7 @@ def train_nn_own(X_train, X_val, X_test, y_train, y_val, y_test):
     
     # Task 2.6: Train the network with L2 regularization
     # Try two different alpha values
+    #necessary so as to be on point
     alpha_values = [0.01, 0.1]
     
     for alpha in alpha_values:

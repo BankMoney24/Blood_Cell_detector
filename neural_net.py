@@ -160,3 +160,6 @@ class MultiLayerPerceptron:
         for layer in self.layers:
             params.extend(layer.parameters())
         return params
+
+
+#please comments are self explanatory, Babs...if any ambiguity, please ask

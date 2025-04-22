@@ -7,6 +7,7 @@ import math
 
 def relu(x):
     """ReLU activation function."""
+    #necessary
     return Scalar(max(0.0, x.data)) if x.data < 0 else x
 
 

@@ -14,7 +14,7 @@ def main():
     np.random.seed(24)
     
     # Load brain scan dataset - replaced with digits for this implementation
-    # In a real scenario, you would load your actual dataset
+    # you would load your actual dataset here
     X, y = load_digits(return_X_y=True)
     
     # Split the data into train, validation, and test sets
