@@ -1,3 +1,7 @@
+
+
+//neural_net.py
+
 import numpy as np
 from autodiff.scalar import Scalar
 import random
